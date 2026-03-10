@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | 160270 | Loay Nidal Fakri Idwan</title>
+    <meta name="description" content="Contact page for Loay Nidal Fakri Idwan's static university portfolio.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Outfit:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <nav class="site-nav" aria-label="Main navigation">
+                <a class="brand" href="index.html">Loay Idwan</a>
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-menu" id="nav-menu">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html#skills">Skills</a>
+                    <a class="nav-link" href="index.html#toolkit">Toolkit</a>
+                    <a class="nav-link" href="index.html#projects">Projects</a>
+                    <a class="nav-link is-active" href="contact.html">Contact Me</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="section hero hero-compact">
+                <div class="hero-copy">
+                    <p class="eyebrow">Contact Me Page</p>
+                    <h1>Get in<br>touch.</h1>
+                    <p class="hero-text">
+                        Use the form below to send your details and comments.
+                    </p>
+                </div>
+
+                <aside class="glass-panel contact-side-card">
+                    <h2>Quick Contact</h2>
+                    <p>Email: <a href="mailto:lnidwan22@cit.just.edu.jo">lnidwan22@cit.just.edu.jo</a></p>
+                    <p>Student: Loay Nidal Fakri Idwan</p>
+                    <p>SID: 160270</p>
+                    <p>Major: CIS (Computer Information Systems)</p>
+                    <div class="social-links" aria-label="Social and portfolio links">
+                        <a class="social-icon" href="https://github.com/lnidwan22" target="_blank" rel="noreferrer" aria-label="Loay's university GitHub">
+                            <svg viewBox="0 0 16 16" aria-hidden="true">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+                        <a class="social-link-pill" href="https://github.com/lnidwan22/portfolio" target="_blank" rel="noreferrer">View Portfolio Code</a>
+                    </div>
+                </aside>
+            </section>
+
+            <section class="section">
+                <form class="glass-panel contact-form" id="contact-form" novalidate>
+                    <div class="section-heading section-heading-left">
+                        <p class="section-label">Web Form</p>
+                        <h2>Send Your Message</h2>
+                        <p>All fields are required before the form can be submitted successfully.</p>
+                    </div>
+
+                    <div class="form-grid">
+                        <label class="field">
+                            <span>Full Name</span>
+                            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name">
+                        </label>
+
+                        <label class="field">
+                            <span>Email Address</span>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address">
+                        </label>
+
+                        <label class="field">
+                            <span>Country</span>
+                            <input type="text" id="country" name="country" placeholder="Enter your country">
+                        </label>
+
+                        <label class="field field-wide">
+                            <span>Comments</span>
+                            <textarea id="comments" name="comments" rows="6" placeholder="Write your comments here"></textarea>
+                        </label>
+                    </div>
+
+                    <p class="form-error" id="form-error" aria-live="polite"></p>
+                    <button class="button button-primary" type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; <span data-current-year></span> Loay Nidal Fakri Idwan</p>
+            <a href="mailto:lnidwan22@cit.just.edu.jo">lnidwan22@cit.just.edu.jo</a>
+        </footer>
+    </div>
+</body>
+</html>
